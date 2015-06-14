@@ -1,0 +1,16 @@
+.slide {
+	overflow-x: hidden;
+}
+.slide .control {
+	text-align: center;
+	padding-top: 20px;
+}
+.slide .my-carousel-content .item {
+    opacity: 0.2;
+}
+.slide .active {
+    opacity: 2 !important;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
